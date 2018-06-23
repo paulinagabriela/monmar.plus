@@ -17,9 +17,9 @@ margin-right: auto;
 #content
 {
 color: lightgrey;
+align: center;
 float: left;
-width: 920px;
-padding: 100px 20px 40px 20px;
+width: 900px;
 }
 
 #logo
@@ -60,7 +60,7 @@ color: lightgrey;
 width: 100%;
 text-align: center;
 text-transform: uppercase;
-padding: 100px 200px 50px 10px;
+padding: 100px 200px 100px 10px;
 font-size: 20px;
 }
 
@@ -68,7 +68,7 @@ font-size: 20px;
 width: 100%;
 color: lightgrey;
 background-color: seagreen;
-padding: 30px;
+padding: 40px;
 font-size: 20px;
 }
 
@@ -103,13 +103,17 @@ padding: 5px;
 text-transform: uppercase;
 font-size: 15px;
 margin-left: 30px;
-padding: 30px 5px 5px 5px;
+padding: 50px 10px 20px 0px;
 }
 
 .image{
 float: left;
-width: 450px;
-height: 450px;
-padding: 0px 10px 10px 0px;
-
+width: 470px;
+height: 470px;
+padding: 0px 0px 20px 20px;
+}
+.image-tlo{
+width: 980px;
+color: lightgrey;
+align: center;
 }
