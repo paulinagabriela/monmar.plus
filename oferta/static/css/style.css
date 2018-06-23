@@ -10,6 +10,7 @@ body
 {
 color: lightgrey;
 width: 1000px;
+align: center;
 margin-left: auto;
 margin-right: auto;
 }
@@ -19,7 +20,7 @@ margin-right: auto;
 color: lightgrey;
 align: center;
 float: left;
-width: 900px;
+width: 960px;
 }
 
 #logo
@@ -36,7 +37,7 @@ padding: 20px 0px 15px 0px;
 color: lightgrey;
 width: 100%;
 font-size: 25px;
-padding: 150px 50px 300px 50px;
+padding: 200px 50px 300px 50px;
 }
 
 .rectangle{
@@ -67,9 +68,11 @@ font-size: 20px;
 .text{
 width: 100%;
 color: lightgrey;
+text-transform: uppercase;
 background-color: seagreen;
-padding: 40px;
-font-size: 20px;
+padding: 20px;
+font-size: 15px;
+line-height: 1.3;
 }
 
 .kontakt{
@@ -102,18 +105,47 @@ padding: 5px;
 .tabela-tytul{
 text-transform: uppercase;
 font-size: 15px;
-margin-left: 30px;
+margin-left: 35px;
 padding: 50px 10px 20px 0px;
 }
 
 .image{
 float: left;
-width: 470px;
-height: 470px;
-padding: 0px 0px 20px 20px;
+width: 480px;
+height: 480px;
+padding: 0px 0px 10px 10px;
 }
 .image-tlo{
 width: 980px;
 color: lightgrey;
 align: center;
+}
+#footer
+{
+clear: both;
+color: white;
+text-align: center;
+padding: 20px;
+}
+
+
+a:link
+{
+   color: white;
+   text-decoration: none;
+}
+
+a:visited
+{
+   color: white;
+}
+
+a:hover
+{
+   color: slategrey;
+}
+
+a:active
+{
+   color: red;
 }

@@ -1,7 +1,6 @@
 <!DOCTYPE HTML>
 <html lang="pl">
-
-<head>
+<head><!--{{{-->
 <meta charset="utf-8"/>
 <title>Usługi remontowe | Mariusz Harbaczonek</title>
 <meta name="description" content="Usługi remontowe, remony, wykończenia mieszczkań, wykończeniówka."/>
@@ -10,115 +9,19 @@
 <link rel="stylesheet" href="static/css/style.css" type="text/css">
 
 <link href="https://fonts.googleapis.com/css?family=Comfortaa|Josefin+Sans&amp;subset=latin-ext" rel="stylesheet">
-<style>
-#nav
-{
-float: left;
-width: 120px;
-min-height: 620px;
-padding: 10px;
-}
-#ad
-{
-float: left;
-min-height: 620px;
-width: 160px;
-padding: 10px;
-}
-#footer
-{
-clear: both;
-color: white;
-text-align: center;
-padding: 20px;
-}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="jquery.scrollTo.min.js"></script>
+<script>
+	jQuery(function($)
+			{
+			$.scrollTo(0);
+			$('#link1').click(function() { $.scrollTo($('#firma'), 500); });
+			}
+			);
 
-@font-face 
-  font-family: 'fontello';
-  src: url('../font/fontello.eot?17857946');
-  src: url('../font/fontello.eot?17857946#iefix') format('embedded-opentype'),
-       url('../font/fontello.woff2?17857946') format('woff2'),
-       url('../font/fontello.woff?17857946') format('woff'),
-       url('../font/fontello.ttf?17857946') format('truetype'),
-       url('../font/fontello.svg?17857946#fontello') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
-/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
-/*
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  @font-face {
-    font-family: 'fontello';
-    src: url('../font/fontello.svg?17857946#fontello') format('svg');
-  }
-}
-*/
- 
- [class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: "fontello";
-  font-style: normal;
-  font-weight: normal;
-  speak: none;
- 
-  display: inline-block;
-  text-decoration: inherit;
-  width: 1em;
-  margin-right: .2em;
-  text-align: center;
-  /* opacity: .8; */
- 
-  /* For safety - reset parent styles, that can break glyph codes*/
-  font-variant: normal;
-  text-transform: none;
- 
-  /* fix buttons height, for twitter bootstrap */
-  line-height: 1em;
- 
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed */
-  margin-left: .2em;
- 
-  /* you can be more comfortable with increased icons size */
-  /* font-size: 120%; */
- 
-  /* Font smoothing. That was taken from TWBS */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
- 
-  /* Uncomment for 3D effect */
-  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
-}
- 
-.icon-mail:before { content: '\e800'; font-size: 76px; } /* '' */
-.icon-phone-outline:before { content: '\e801'; font-size: 20px; color: white;} /* '' */
-.icon-wrench:before { content: '\e802'; } /* '' */
-.icon-facebook:before { content: '\f09a'; font-size: 76px; } /* '' */
-.icon-facebook-official:before { content: '\f230'; } /* '' */
+</script>
 
-a:link
-{
-   color: white;
-   text-decoration: none;
-}
-
-a:visited
-{
-   color: white;
-}
-
-a:hover
-{
-   color: blue;
-}
-
-a:active
-{
-   color: red;
-}
-
-</style>
-</head>
+</head><!--}}}-->
 
 <body>
 <div id="container"><!--{{{-->
@@ -130,7 +33,7 @@ MAR-MIK
 <small>Mariusz</small>
 </div><!--}}}-->
 <div class="rectangle"><!--{{{-->
-	<a href="#firma" color="black">O FIRMIE</a>
+	<a id="link1" href="#firma">O FIRMIE</a>
 </div>
 <div class="rectangle">
 	<a href="#oferta">OFERTA</a>
@@ -156,7 +59,7 @@ Nasza specjalność to:
 	<ul>
 <li>układanie glazury, terakoty, cegły</li>
 <li>szpachlowanie oraz prace malarskie</li>
-<li>montaż systemów suchej zabudowy („zabudowa g-k, sufity podwieszane itp.”</li>
+<li>montaż systemów suchej zabudowy („zabudowa g-k, sufity podwieszane itp.”)</li>
 <li>ścianki działowe</li>
 <li>montaż paneli i desek podłogowych</li>
 <li>montaż drzwi i okien</li>
@@ -168,16 +71,16 @@ Podejmujemy się również skomplikowanym zleceniom, według projektu architekta
 	<div class="text">
 Wykonujemy:
 <ul>
-	<li>kompleksowe wykończenia wnętrz, remonty, adaptacje pomieszczeń,</li>
-	<li>montaż systemów suchej zabudowy: okładziny, przedścianki, ścianki działowe i instalacyjne z płyt g-k, zabudowa poddaszy, sufity podwieszane (monolityczne, napinane, kasetonowe, ażurowe, dekoracyjne),</li> 
+	<li>kompleksowe wykończenia wnętrz, remonty, adaptacje pomieszczeń</li>
+	<li>montaż systemów suchej zabudowy: okładziny, przedścianki, ścianki działowe i instalacyjne z płyt g-k, zabudowa poddaszy, sufity podwieszane (monolityczne, napinane, kasetonowe, ażurowe, dekoracyjne)</li> 
 	<li>ścianki działowe murowane</li>
-	<li>szpachlowanie (gładź, gipsowanie, tarcie bezpyłowe),</li>
-	<li>szpachlowanie, tynki dekoracyjne,</li>
-	<li>malowanie, malowanie dekoracyjne,</li>
-	<li>tapetowanie,</li>
-	<li>układanie glazury, gresu, kamienia naturalnego, mozaiki (łazienki, podłogi, tarasy, balkony itp.),</li>
-	<li>prace montażowe (drzwi, okna itp.) </li>
-	<li>biały montaż,</li>
+	<li>szpachlowanie (gładź, gipsowanie, tarcie bezpyłowe)</li>
+	<li>szpachlowanie, tynki dekoracyjne</l>
+	<li>malowanie, malowanie dekoracyjne</li>
+	<li>tapetowanie</li>
+	<li>układanie glazury, gresu, kamienia naturalnego, mozaiki (łazienki, podłogi, tarasy, balkony itp.)</li>
+	<li>prace montażowe (drzwi, okna itp.)</li>
+	<li>biały montaż</li>
 	<li>prace podłogowe (panele laminowane, panele drewniane, parkiety gotowe, wykładziny, terakota, gres, kamień naturalny itp.)</li>
 	<li>wznoszenie budynków mieszkalnych</li>
 </ul>
@@ -251,7 +154,7 @@ Poniższy cennik służy przybliżonemu oszacowaniu kosztów. Nie stanowi oferty
 	</tr>
 	<tr>
 		<td>9.</td>
-		<td><szpachlowanie+szlifowanie sufitów</td>
+		<td>szpachlowanie+szlifowanie sufitów</td>
 		<td>m2</td>
 		<td>25-30 zł</td>
 	</tr>
@@ -356,7 +259,7 @@ Poniższy cennik służy przybliżonemu oszacowaniu kosztów. Nie stanowi oferty
 	</tbody>
 </table>
 <br><!--}}}-->
-<div class="tabela-tytul">Prace instalacyjne - hydraulicznei</div><!--{{{-->
+<div class="tabela-tytul">Prace instalacyjne - hydrauliczne</div><!--{{{-->
 <table class="tabela">
 	<thead>
 		<tr>
@@ -663,11 +566,11 @@ Poniższy cennik służy przybliżonemu oszacowaniu kosztów. Nie stanowi oferty
 	</tr>
 	</tbody>
 </table><!--}}}-->
-Ceny mogą zależeć m.in. od wielkości zlecenia, zastosowanych technologii, oczekiwanych terminów. 
+<br>Ceny mogą zależeć m.in. od wielkości zlecenia, zastosowanych technologii, oczekiwanych terminów. 
 Podane ceny są cenami brutto za robociznę bez materiałów.</div>
 <!--}}}-->
-	<div id="galeria" class="tytul">Galeria</div>                                                                                                <!--{{{-->
-<div class="tabela-tytul">REMONT ŁAZIENEK  UL. PADEREWSKIEGO</div>
+	<div id="galeria" class="tytul">Galeria</div>                                                                                                <!--{{{--><!--{{{-->
+<div class="tabela-tytul">REMONT ŁAZIENEK  UL. PADEREWSKIEGO</div><!--{{{-->
 <div class="image-tlo">
 	<img class="image" src="static/images/4/1.jpg"> 
 	<img class="image" src="static/images/4/2.jpg"> 
@@ -678,7 +581,8 @@ Podane ceny są cenami brutto za robociznę bez materiałów.</div>
 	<img class="image" src="static/images/4/5.jpg"> 
 <div style="clear:both;"></div>
 </div>
-<div class="tabela-tytul">REMONT PRUSZCZ GDAŃŚKI</div>
+<!--}}}-->
+<div class="tabela-tytul">REMONT PRUSZCZ GDAŃŚKI</div><!--{{{-->
 <div class="image-tlo">
 	<img class="image" src="static/images/2/1.jpg"> 
 	<img class="image" src="static/images/2/2.jpg"> 
@@ -698,7 +602,8 @@ Podane ceny są cenami brutto za robociznę bez materiałów.</div>
 	<img class="image" src="static/images/2/11.png"> 
 <div style="clear:both;"></div>
 </div>
-<div class="tabela-tytul">REMONTY WRZESZCZ I ZASPA ZD. PRZED I PO REALIZACJI</div>
+<!--}}}-->
+<div class="tabela-tytul">REMONTY WRZESZCZ I ZASPA ZD. PRZED I PO REALIZACJI</div><!--{{{-->
 <div class="image-tlo">
 	<img class="image" src="static/images/1/1.jpg"> 
 	<img class="image" src="static/images/1/2.jpg"> 
@@ -731,7 +636,8 @@ Podane ceny są cenami brutto za robociznę bez materiałów.</div>
 	<img class="image" src="static/images/1/20.jpg"> 
 <div style="clear:both;"></div>
 </div>
-<div class="tabela-tytul">WYKOŃCZENIE MIESZKANIA MORENA</div>
+<!--}}}-->
+<div class="tabela-tytul">WYKOŃCZENIE MIESZKANIA MORENA</div><!--{{{-->
 <div class="image-tlo">
 	<img class="image" src="static/images/3/1.jpg"> 
 	<img class="image" src="static/images/3/2.jpg"> 
@@ -745,6 +651,8 @@ Podane ceny są cenami brutto za robociznę bez materiałów.</div>
 	<img class="image" src="static/images/3/7.jpg"> 
 <div style="clear:both;"></div>
 </div>
+<!--}}}-->
+<!--}}}-->
 <!--}}}-->
   <div id="kontakt" class="tytul">Kontakt</div>                                                                                               <!--{{{-->
 	<div class="kontakt"><b>MAR-MIK Mariusz Harbaczonek</b><br> 
