@@ -41,7 +41,7 @@ padding: 200px 50px 300px 50px;
 }
 
 .rectangle{
-color: black;
+color: lightgrey;
 float: left;
 width: 70px;
 padding: 15px;
@@ -129,23 +129,24 @@ padding: 20px;
 }
 
 
+
 a:link
 {
-   color: white;
-   text-decoration: none;
+   color: lightgrey;
+	 text-decoration: none;
 }
-
 a:visited
 {
-   color: white;
+   color: lightgrey;
+	 text-decoration: none;
 }
-
 a:hover
 {
-   color: slategrey;
+   color: grey;
+	 text-decoration: underline;
 }
-
 a:active
 {
-   color: red;
+   color: lightgrey;
+	 text-decoration: none;
 }
