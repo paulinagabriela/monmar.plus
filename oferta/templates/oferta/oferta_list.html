@@ -10,14 +10,26 @@
 
 <link href="https://fonts.googleapis.com/css?family=Comfortaa|Josefin+Sans&amp;subset=latin-ext" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="jquery.scrollTo.min.js"></script>
+<script src="static/js/jquery.scrollTo.min.js"></script>
 <script>
 	jQuery(function($)
 			{
 			$.scrollTo(0);
-			$('#link1').click(function() { $.scrollTo($('#firma'), 500); });
+			$('#link1').click(function() { $.scrollTo($('#firma'), 1000); });
+			$('#link2').click(function() { $.scrollTo($('#oferta'), 1000); });
+			$('#link3').click(function() { $.scrollTo($('#cennik'), 1000); });
+			$('#link4').click(function() { $.scrollTo($('#galeria'), 1000); });
+			$('#link5').click(function() { $.scrollTo($('#kontakt'), 1000); });
+			$('.scrollup').click(function() { $.scrollTo($('body'), 1000); });
 			}
 			);
+
+$(window).scroll(function()
+		{
+		if($(this).scrollTop()>300) $('.scrollup').fadeIn();
+		else $('.scrollup').fadeOut();
+		}
+		)
 
 </script>
 
@@ -25,6 +37,7 @@
 
 <body>
 <div id="container"><!--{{{-->
+	<a href="#" class="scrollup"></a>
 <div id="firma-nazwa"><!--{{{-->
 MAR-MIK
 </div>
@@ -33,19 +46,19 @@ MAR-MIK
 <small>Mariusz</small>
 </div><!--}}}-->
 <div class="rectangle"><!--{{{-->
-	<a href="#firma">O FIRMIE</a>
+	<a id="link1" href="#">FIRMA</a>
 </div>
 <div class="rectangle">
-	<a href="#oferta">OFERTA</a>
+	<a id="link2" href="#">OFERTA</a>
 </div>
 <div class="rectangle">
-	<a href="#cennik">CENNIK</a>
+	<a id="link3" href="#">CENNIK</a>
 </div>
 <div class="rectangle">
-	<a href="#galeria">GALERIA</a>
+	<a id="link4" href="#">GALERIA</a>
 </div>
 <div class="rectangle">
-	<a href="#kontakt">KONTAKT</a>
+	<a id="link5" href="#">KONTAKT</a>
 </div>
 <div style="clear:both;"></div>
 <!--}}}-->
